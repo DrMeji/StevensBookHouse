@@ -1,8 +1,71 @@
-body{
-    background-image: url(img/libraires.avif) ;
+body {
+    background-image: url(img/libraires.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: contain;
     background-size: 100%;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: rgb(141, 214, 214)
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+
+.section {
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book-info {
+    padding: 10%;
+}
+
+img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#logo {
+    color: rgb(224, 81, 81);
+}
+
+h1 {
+    color: rgb(32, 25, 128);
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: black;
+}
+h4{
+    border: 3px solid;
+    width: 16%;
+    margin: auto;
+    color: rgb(32, 218, 218);
+
 }
